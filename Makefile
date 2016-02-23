@@ -1,5 +1,6 @@
 REBAR := $(shell which rebar 2>/dev/null || echo ./rebar)
 REBAR_URL := https://github.com/downloads/basho/rebar/rebar
+USES = iconv
 
 all: compile
 
